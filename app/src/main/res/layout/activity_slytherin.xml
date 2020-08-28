@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SlytherinActivity"
+    android:background="@color/colorSlytherin">
+
+    <ImageView
+        android:id="@+id/slytherinlogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/slytherin"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:fontFamily="@font/harryp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Slytherin"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:layout_below="@+id/slytherinlogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asrama Slytherin menilai dari ambisi, kecerdikan (licik), bakat kepemimpinan, daya akal yang panjang, kecenderungan melanggar aturan dan (rata-rata) keturunan darah murni."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/header" />
+</RelativeLayout>

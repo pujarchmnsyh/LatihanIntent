@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorDark">#323131</color>
+    <color name="colorGryffindor">#E82626</color>
+    <color name="colorSlytherin">#088D18</color>
+    <color name="colorHufflepuff">#D6C51E</color>
+    <color name="colorWhite">#FFFFFF</color>
+</resources>

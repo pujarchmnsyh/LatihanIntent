@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HufflepuffActivity"
+    android:background="@color/colorHufflepuff">
+
+    <ImageView
+        android:id="@+id/hufflepufflogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/hufflepufff"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:fontFamily="@font/harryp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Hufflepuff"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:layout_below="@+id/hufflepufflogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asrama Hufflepuff menilai dari kerja keras, kesabaran, kesetiaan, dedikasi, toleransi, dan keadilan di atas semuanya."
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/header" />
+
+</RelativeLayout>

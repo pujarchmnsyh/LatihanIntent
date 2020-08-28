@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorDark">
+
+    <ImageView
+        android:id="@+id/hogwartslogo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/hogwarts"/>
+
+    <Button
+        android:id="@+id/gryffindor"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Gryffindor"
+        android:textSize="28sp"
+        android:fontFamily="@font/harryp"
+        android:background="@color/colorGryffindor"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hogwartslogo" />
+
+    <Button
+        android:id="@+id/slytherin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Slytherin"
+        android:textSize="28sp"
+        android:fontFamily="@font/harryp"
+        android:background="@color/colorSlytherin"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/gryffindor"/>
+
+    <Button
+        android:id="@+id/hufflepuff"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="HUFFLEPUFF"
+        android:textSize="28sp"
+        android:fontFamily="@font/harryp"
+        android:background="@color/colorHufflepuff"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slytherin"/>
+
+</RelativeLayout>
